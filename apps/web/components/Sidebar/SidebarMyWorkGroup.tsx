@@ -103,7 +103,7 @@ export function SidebarHome() {
     <SidebarLink
       active={isPosts}
       id='posts'
-      label='Home'
+      label='Home (Branch Build)'
       leadingAccessory={<HomeIcon />}
       href={`/${scope}/posts`}
       onClick={onPostsClick}
