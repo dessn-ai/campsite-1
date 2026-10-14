@@ -2,6 +2,7 @@ import { ArrowLeftIcon, Button } from '@campsite/ui'
 
 import { useGoBack } from './Providers/HistoryProvider'
 
+// Goes back in the app's own history (HistoryProvider), not the browser's.
 interface Props {
   fallbackPath?: string
   icon?: React.ReactNode
